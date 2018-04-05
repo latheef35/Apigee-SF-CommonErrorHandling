@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Condition>(flow.error.code = null)</Condition>
+        <Name>JS-Error-Code</Name>
+    </Step>
+    <Step>
+        <Name>ML-File-Error</Name>
+    </Step>
+    <Step>
+        <Name>RF-Common-JSON</Name>
+    </Step>
+</SharedFlow>

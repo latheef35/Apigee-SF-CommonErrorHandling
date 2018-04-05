@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="SF-DefaultFaultRule">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <DisplayName>SF-DefaultFaultRule</DisplayName>
+    <Policies>
+        <Policy>JS-Error-Code</Policy>
+        <Policy>ML-File-Error</Policy>
+        <Policy>RF-Common-JSON</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://errorCode.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <validate>false</validate>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
